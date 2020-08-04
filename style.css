@@ -88,3 +88,39 @@ footer{
     margin-top: 50px;
     font-size: 13px;
 }
+
+.dialogue{
+    text-align: center;
+    margin: 10px;
+    height: 70px;
+    box-shadow: 10px 10px 30px lightgrey;
+}
+.dialogue:hover{
+    box-shadow:5px 5px 40px rgb(236, 5, 5);
+    color: black;
+}
+.arrow{
+    font-size: 100px;
+}
+.right,.down,.finished{
+    color: white;
+    height: 50px;
+}
+.right:hover{
+    color: blueviolet;
+    text-align: end;
+    box-shadow: 10px 10px 30px lightblue;
+    padding: 10px;
+}
+.down:hover{
+    color: rgb(72, 35, 107);
+    text-align: center;
+    box-shadow: 10px 10px 30px rgb(210, 212, 81);
+    padding: 10px;
+}
+.finished:hover{
+    color: rgb(72, 35, 107);
+    text-align: center;
+    box-shadow: 10px 10px 30px rgb(74, 185, 59);
+    padding: 10px;
+}
